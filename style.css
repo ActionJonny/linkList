@@ -1,9 +1,21 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+}
+
 h1 {
 font-family: 'Open Sans', sans-serif;
 font-weight: 800;
 margin-top: 100px;
 margin-bottom: 50px;
+font-size: 35px;
+color: #FFFFFF;
 }
+
+/*img {
+height: 40px;
+width: 50px;
+}*/
 
 .userTitle, .userWebsite {
 margin-top: 20px;
@@ -11,11 +23,26 @@ margin-bottom: 20px;
 }
 
 #mainOne {
-  position: relative;
+  position: fixed;
   border: 2px solid;
   width: 49%;
   text-align: center;
   height: 100vh;
+  background-color: #455A64;
+}
+
+input {
+  width: 75%;
+  height: 20px;
+}
+
+#Enter {
+  width: 75%;
+  height: 30px;
+  background-color: #FFC107;
+  border: none;
+  font-size: 15px;
+  margin-top: 30px;
 }
 
 #mainTwo {
@@ -26,11 +53,26 @@ margin-bottom: 20px;
   width: 50%;
   text-align: center;
   height: 100vh;
+  background-color:#CFD8DC;
 }
 
-h2 {
-  font-family: 'Open Sans', sans-serif;
-  font-weight: 400;
-  margin-top: 100px;
+h2, h3 {
+  margin-top: 10px;
   margin-bottom: 10px;
+}
+
+ul {
+  border: 2px solid #607D8B;
+  margin-top: 10px;
+  margin-right: 10px;
+  margin-left: 10px;
+  background-color: white;
+}
+
+button {
+  margin-bottom: 10px;
+}
+
+#Read {
+  margin-right: 150px;
 }
