@@ -1,4 +1,36 @@
 h1 {
 font-family: 'Open Sans', sans-serif;
 font-weight: 800;
+margin-top: 100px;
+margin-bottom: 50px;
+}
+
+.userTitle, .userWebsite {
+margin-top: 20px;
+margin-bottom: 20px;
+}
+
+#mainOne {
+  position: relative;
+  border: 2px solid;
+  width: 49%;
+  text-align: center;
+  height: 100vh;
+}
+
+#mainTwo {
+  position: absolute;
+  border: 2px solid;
+  right: 0px;
+  top: 0px;
+  width: 50%;
+  text-align: center;
+  height: 100vh;
+}
+
+h2 {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  margin-top: 100px;
+  margin-bottom: 10px;
 }
