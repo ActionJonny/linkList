@@ -10,7 +10,7 @@
 
 <body>
 <section id="mainOne">
-  <h1>Linked <img src="" alt="" /> List </h1>
+  <h1>Linked <img src="" alt=""/> List </h1>
     <input class="userTitle" type="letters" name="name" placeholder="Website Title">
     <br>
     <input class="userWebsite" type="letters" name="name" placeholder="Website URL">
@@ -19,13 +19,18 @@
 </section>
 
 <section id="mainTwo">
-  <h2>Website Title</h2>
-  <input class="user-input" type="letters" name="name" placeholder="Website URL">
-  <br>
-  <button id="Read" type="button" >Read</button>
-  <br>
-  <button id="Delete" type="button" >Delete</button>
+  <ul>
+    <li>
+      <h2 class="Title">Website Title</h2>
+      <h3 class="URL"> Website URL</h3>
+      <br>
+      <button id="Read" type="button" >Read</button>
+      <button id="Delete" type="button" >Delete</button>
+    </li>
+  </ul>
 </section>
 
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+<script src='scripts.js'></script>
 </body>
 </html>
